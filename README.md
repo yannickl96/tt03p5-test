@@ -1,5 +1,7 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
+> Note: this is an experimental template for Tiny Tapeout 03p5 (3.5). Please talk to us before using it!
+
 # What is Tiny Tapeout?
 
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip!
@@ -9,6 +11,7 @@ Go to https://tinytapeout.com for instructions!
 ## How to change the Wokwi project
 
 Edit the [info.yaml](info.yaml) and change the wokwi_id to match your project.
+
 
 ## How to enable the GitHub actions to build the ASIC files
 
