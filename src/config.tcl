@@ -21,16 +21,12 @@ set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 0
 # allow use of specific sky130 cells
 set ::env(SYNTH_READ_BLACKBOX_LIB) 1
 
-# template for pin placement
-set ::env(FP_DEF_TEMPLATE) "$::env(DESIGN_DIR)/tt_block_1x1.def"
-
 # reduce wasted space
 set ::env(TOP_MARGIN_MULT) 2
 set ::env(BOTTOM_MARGIN_MULT) 2
 
 # absolute die size
 set ::env(FP_SIZING) absolute
-set ::env(DIE_AREA) "0 0 167.9 108.8"
 
 set ::env(PL_BASIC_PLACEMENT) {0}
 set ::env(GRT_ALLOW_CONGESTION) "1"
